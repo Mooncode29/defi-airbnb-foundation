@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 footer {
 	background-color: #333333;
 	color: white;
+=======
+.top-bar {
+	width: 100%;
+	position: fixed;
+>>>>>>> 472a268b678ea7a6b982cbcd0ec93c4ad9a2e7f2
 }
