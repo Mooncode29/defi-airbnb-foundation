@@ -1,7 +1,25 @@
+
+footer {
+	background-color: #333333;
+	color: white;
+<<<<<<< HEAD
+	}
 .top-bar {
 	width: 100%;
 	position: fixed;
 }
+<<<<<<< HEAD
 .hollow button {
 	font-color : black;
 }
+=======
+
+=======
+}
+
+.top-bar {
+	width: 100%;
+	position: fixed;
+}
+>>>>>>> f577680e18b0dd6740b222b532a7510d79cc15d7
+>>>>>>> 45abc96a25d3dc54c0c48bc4ded987c2e0569738
