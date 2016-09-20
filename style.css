@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img {
   max-width: 100%;
   height: auto;
@@ -12,3 +13,14 @@ img {
     margin: 20px;
   }
 }
+=======
+<<<<<<< HEAD
+.medium-1 {
+
+	border: 2px solid black ;
+=======
+.columns {
+	border: solid black 1px;
+>>>>>>> 715074c1f658c51e641f568e3ca54b986329eae5
+}
+>>>>>>> 782f74599927e4a66cf9ad859383aa930392162e
