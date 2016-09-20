@@ -1,4 +1,20 @@
 <<<<<<< HEAD
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 0) and (max-width: 64em) {
+  img, form, .button {
+    padding: 20px;
+  }
+  .button {
+    margin: 20px;
+  }
+}
+=======
+<<<<<<< HEAD
 .medium-1 {
 
 	border: 2px solid black ;
@@ -7,3 +23,4 @@
 	border: solid black 1px;
 >>>>>>> 715074c1f658c51e641f568e3ca54b986329eae5
 }
+>>>>>>> 782f74599927e4a66cf9ad859383aa930392162e
