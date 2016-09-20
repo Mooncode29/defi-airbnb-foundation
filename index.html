@@ -4,47 +4,103 @@
 	<meta charset="UTF-8">
 	<title>Airbnb Foundation</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="foundation/css/foundation.min.css">
-	<link rel="javascript" type="text/javascript" href="script.js">
-	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="foundation/css/foundation.css">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
 </head>
 <body>
+</html>
 
-	
-	</html>
+	<!-- Ici commence le Header -->
 
 	<header>
-		<div class="row">
-			<div class="medium-1 columns">Airbnb</div>
-			<div class="medium-1 columns">Où </div>
-			<div class="medium-2 columns medium-offset-5">Devenez hôte</div>
-			<div class="medium-1 columns">Aide</div>
-			<div class="medium-1 columns">Inscription</div>
-			<div class="medium-1 columns">Connexion</div>
+		<div class="top-bar">
+			<div class="top-bar-left">
+				<ul class="menu">
+					<li class="menu-text"><a href="#">Airbnb</a></li>
+					<li><i class="fa fa-search" aria-hidden="true"></i></li>
+					<li><input type="search" placeholder="Où ?"></li>
+				</ul>
+			</div>
+			<div class="top-bar-right">
+				<ul class="menu">
+					<li class="menu-text"><a href="#">Devenez Hôte</a></li>
+					<li class="menu-text"><a href="#">Aide</a></li>
+					<li class="menu-text"><a href="#">Inscription</a></li>
+					<li class="menu-text"><a href="#">Connexion</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="row">
-			<div class="medium-12 columns"><img src="https://placehold.it/1200x500" alt="Vidéo de présentation">
-				<div class="row">
-					<div class="medium-4 columns medium-offset-4">Vivez là-bas</div>
-				</div>
-				<div class="row">
-					<div class="medium-8 columns medium-offset-2">Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez comme là-bas, comme chez vous.</div>
-				</div>
-				<div class="row">
-					<div class="medium-10 columns medium-offset-1">
-						<div class="row">
-							<div class="medium-4 columns">Où ?</div>
-							<div class="medium-2 columns">Arrivée</div>
-							<div class="medium-2 columns">Départ</div>
-							<div class="medium-2 columns">1 voyageur</div>
-							<div class="medium-2 columns">Rechercher</div>
-						</div>
+			<div class="medium-12 columns"><img src="https://placehold.it/1200x500" alt="Vidéo de présentation"></div> 
+			<div class="row">
+				<div class="medium-4 columns medium-centered text-center"><h2><strong>Vivez là-bas</strong></h2></div>
+			</div>
+			<div class="row">
+				<div class="medium-9 columns medium-centered text-center"><h6>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez comme là-bas, comme chez vous.</h6></div>
+			</div>
+			<div class="row">
+				<div class="medium-10 columns medium-offset-1">
+					<div class="row">
+						<form action="">
+							<div class="medium-4 columns"><input type="search" placeholder="Où ?"></div>
+							<div class="medium-2 columns"><input type="date" placeholder="Arrivée"></div>
+							<div class="medium-2 columns"><input type="date" placeholder="Départ"></div>
+							<div class="medium-2 columns">
+								<label>
+									<select>
+										<option value="1 Voyageur">1 Voyageur</option>
+										<option value="2 Voyageurs">2 Voyageurs</option>
+										<option value="3 Voyageurs">3 Voyageurs</option>
+										<option value="4 Voyageurs">4 Voyageurs</option>
+										<option value="5 Voyageurs">5 Voyageurs</option>
+										<option value="6 Voyageurs">6 Voyageurs</option>
+										<option value="7 Voyageurs">7 Voyageurs</option>
+									</select>
+								</label>
+							</div>
+							<div class="medium-2 columns"><input type="submit" class="alert button" value="Rechercher"></div>
+						</form>
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>	
 	
+
+	<!-- Ici commence la Partie 1 -->
+
+	<div class="row">
+		<div class="medium-8 columns"><img src="https://placehold.it/350x150"></div>
+		<div class="medium-4 columns"><h1>Ouvrez la porte à un voyageur et à une nouvelle vie</h1><p>gagnez de l'argent en accueillant des voyageurs</p>
+			<a href="#" class="button">Estimer mes revenus</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="medium-12 columns"><h1>Juste pour le week-end</h1><p>Découvrez de nouveaux logements incroyables près de chez vous.</p></div>
+	</div>
+
+	<div class="row">
+		<div class="medium-4 columns">
+			<img src="https://placehold.it/250x250">
+			<div class="small-6 columns"><h4>Lille</h4></div>
+		</div>
+		<div class="medium-4 columns">
+			<img src="https://placehold.it/250x250">
+			<div class="small-6 columns"><h4>Bruxelles</h4></div>
+		</div>
+		<div class="medium-4 columns">
+			<img src="https://placehold.it/250x250">
+			<div class="small-6 columns"><h4>Londres</h4></div>
+		</div>
+	</div>
+	<a href="#" class="button">Voir toutes les destinations</a>
+
+	
+
+	<!-- Ici commence la partie 2 -->
+
 	<div class="body-parti2">
 
 		<h3 class="text-center">Explorez le monde</h3>
@@ -59,46 +115,11 @@
 			<div class="medium-5 medium-offset-1 columns"><img src="http://placehold.it/250x250"></div>
 			<div class="medium-2 medium-offset-1 columns"><img src="http://placehold.it/250x250"></div>
 		</div>
-
-
-		<div class="row">
-			<div class="medium-8 columns"><img src="https://placehold.it/350x150"></div>
-			<div class="medium-4 columns"><h1>Ouvrez la porte à un voyageur et à une nouvelle vie</h1><p>gagnez de l'argent en accueillant des voyageurs</p>
-				<a href="#" class="button">Estimer mes revenus</a>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="medium-12 columns"><h1>Juste pour le week-end</h1><p>Découvrez de nouveaux logements incroyables près de chez vous.</p></div>
-		</div>
-
-		<div class="row">
-			<div class="medium-4 columns">
-				<img src="https://placehold.it/250x250">
-				<div class="small-6 columns"><h4>Lille</h4></div>
-			</div>
-			<div class="medium-4 columns">
-				<img src="https://placehold.it/250x250">
-				<div class="small-6 columns"><h4>Bruxelles</h4></div></div>
-			</div>
-			<div class="medium-4 columns">
-				<img src="https://placehold.it/250x250">
-				<div class="small-6 columns"><h4>Londres</h4></div></div>
-			</div>
-		</div>
-		<a href="#" class="button">Voir toutes les destinations</a>	
 	</div>
 
 
-</div>
-</div>
 
-
-<hr class="bar"> </hr>
-<div class="icone">
-	
-
-	<!-- footer -->
+		<!-- footer -->
 
 	<footer>
 		<div class="button group">
@@ -156,6 +177,6 @@
 				</div>
 			</footer>
 
-		</body>
-		</html>
-
+<script type="style.js"></script>
+</body>
+</html>
